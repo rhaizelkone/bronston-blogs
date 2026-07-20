@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,35 +12,7 @@
 <link rel="stylesheet" href="../css/theme.css">
 </head>
 <body>
-<div class="bg-dots" aria-hidden="true"></div>
-<div class="section-tabs" aria-label="Site areas">
-  <a href="../bronston/index.html">Bronston Buzz</a>
-  <a class="on" href="index.html">📚 The Reading Room</a>
-</div>
-<div class="wrap">
-
-  <header>
-    <a class="brand" href="index.html" aria-label="raecantwrite — home">
-      <svg viewBox="0 0 48 48" aria-hidden="true">
-        <rect x="8" y="10" width="14" height="30" rx="3" fill="#EAD5C6"/>
-        <rect x="20" y="6" width="13" height="34" rx="3" fill="#E3DACB"/>
-        <rect x="31" y="13" width="10" height="27" rx="3" fill="#D8DFC9"/>
-        <path d="M8 40 Q24 44 41 40" stroke="#544539" stroke-width="2.4" fill="none" stroke-linecap="round"/>
-        <circle cx="26.5" cy="14" r="1.6" fill="#544539"/>
-        <path d="M24 20 q2.5 2 5 0" stroke="#544539" stroke-width="1.6" fill="none" stroke-linecap="round"/>
-      </svg>
-      <span>
-        <span class="brand-name">RaeCantWrite</span><br>
-        <span class="brand-tag">but she sure can read ♡</span>
-      </span>
-    </a>
-    <nav aria-label="Site sections">
-      <a href="index.html">Home</a>
-      <a class="active" href="reviews.html">Reviews</a>
-      <a href="shelf.html">Shelf</a>
-      <a href="about.html">About</a>
-    </nav>
-  </header>
+{% include reading/header.html active="reviews" %}
 
   <section class="hero" style="padding-bottom:52px;">
     <span class="kicker">✿ &nbsp;book review&nbsp; ✿</span>
@@ -110,6 +84,8 @@
       <span class="tag">#raereads</span>
     </div>
 
+    {% include reading/subscribe.html %}
+
     <div class="signoff">
       <div class="name">happy reading! — rae ♡</div>
       <div class="role">raecantwrite · Book Blogger</div>
@@ -120,19 +96,7 @@
     </div>
 
   </article>
-</div>
-
-<footer class="site-footer">
-  <div style="font-family:'Fraunces',serif;font-weight:600;font-size:1.2rem;">raecantwrite</div>
-  <div style="font-family:'Caveat',cursive;font-size:1.15rem;color:var(--ink-soft);">so many books, so little time</div>
-  <div class="socials">
-    <a href="https://www.goodreads.com/user/show/3453700-rachelle" target="_blank" rel="noopener">✦ Goodreads</a>
-    <a href="https://www.instagram.com/raecantwrite" target="_blank" rel="noopener">✿ Instagram</a>
-    <a href="https://www.tiktok.com/@raecantwrite" target="_blank" rel="noopener">♡ TikTok</a>
-  </div>
-  <div class="fine">© 2026 raecantwrite · made with tea and too many tabs open</div>
-</footer>
-
+{% include reading/footer.html %}
 <script src="../js/polls.js"></script>
 <script>
   // spoiler covers: click or press Enter to reveal
