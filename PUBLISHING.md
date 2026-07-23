@@ -100,3 +100,36 @@ After publishing a post, send a short campaign/broadcast to that
 wing's group from your email service: post title, one-line teaser,
 link. Takes two minutes. (Most services can automate this from an
 RSS feed later — ask Claude to add a feed when you want that.)
+
+## Comments (Disqus)
+
+Every post carries a comment section via the includes
+`_includes/reading/comments.html` and `_includes/bronston/comments.html`
+(shortname: bronstonblogs). New posts made from the templates get
+comments automatically.
+
+- Reply to readers directly in the comment box on the post while
+  signed in to your Disqus account — your reply nests in the thread
+- Moderate (approve, delete, close threads, ban spammers) at
+  disqus.com → your site's Moderation dashboard
+- Email notifications for new comments can be enabled in Disqus
+  settings → Notifications
+
+## RSS feeds
+
+Two feeds live at the site root: `feed-reading.xml` (Reading Room)
+and `feed-bronston.xml` (Bronston Buzz).
+
+- ONE-TIME: replace every `https://YOUR-SITE-URL` in both files with
+  your real site URL (find-and-replace in the GitHub editor)
+- PER POST: when publishing, copy an existing `<item>` block in the
+  wing's feed, paste it at the TOP of the items, and update the
+  title, link, guid, date, and description
+- These feeds let readers follow via RSS apps now, and plug directly
+  into RSS-to-email automation if you ever upgrade MailerLite
+
+## Sending the new-post email (manual, ~2 min)
+
+MailerLite → Campaigns → Create campaign → pick the wing's group →
+paste the matching template (see EMAIL-TEMPLATES.md) → swap the
+[bracketed] bits → send.

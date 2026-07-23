@@ -1,0 +1,18 @@
+<div class="comments-card">
+  <h3>join the conversation 🍁</h3>
+  <p class="comments-sub">thoughts, questions, bronston stories — the comment box is yours</p>
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = window.location.href.split('#')[0];
+      this.page.identifier = "{{ page.url }}";
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://bronstonblogs.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Comments need JavaScript enabled — please <a href="https://disqus.com/?ref_noscript" rel="nofollow">view the discussion on Disqus</a>.</noscript>
+</div>

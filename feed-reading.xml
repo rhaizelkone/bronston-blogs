@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>The Reading Room · RaeCantWrite</title>
+  <link>https://rhaizelkone.github.io/bronston-blogs/reading-corner/index.html</link>
+  <description>Honest book reviews and bookish rambles by Rae.</description>
+  <language>en</language>
+
+  <!-- NEWEST POST FIRST. To add a post: copy an <item> block, paste it
+       directly below this comment, update title/link/date/description. -->
+
+  <item>
+    <title>Review: The Correspondent by Virginia Evans</title>
+    <link>https://rhaizelkone.github.io/bronston-blogs/reading-corner/review-the-correspondent.html</link>
+    <guid>https://rhaizelkone.github.io/bronston-blogs/reading-corner/review-the-correspondent.html</guid>
+    <pubDate>Wed, 22 Jul 2026 12:00:00 +0000</pubDate>
+    <description>A life told entirely in letters. Quiet, tender, and a gentle nudge to truly correspond again. 4/5 spines.</description>
+  </item>
+
+  <item>
+    <title>Is Reading a Dying Art?</title>
+    <link>https://rhaizelkone.github.io/bronston-blogs/reading-corner/is-reading-a-dying-art.html</link>
+    <guid>https://rhaizelkone.github.io/bronston-blogs/reading-corner/is-reading-a-dying-art.html</guid>
+    <pubDate>Sun, 19 Jul 2026 12:00:00 +0000</pubDate>
+    <description>A love letter, an investigation, and the very first entry of this little blog — with polls so you can overrule me.</description>
+  </item>
+
+</channel>
+</rss>

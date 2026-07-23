@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Bronston Buzz</title>
+  <link>https://rhaizelkone.github.io/bronston-blogs/bronston/index.html</link>
+  <description>Stories from Bronston Canadian Academy.</description>
+  <language>en</language>
+
+  <!-- NEWEST POST FIRST. To add a post: copy an <item> block, paste it
+       directly below this comment, update title/link/date/description. -->
+
+  <item>
+    <title>Bronston, But Make It Summer</title>
+    <link>https://rhaizelkone.github.io/bronston-blogs/bronston/bronston-but-make-it-summer.html</link>
+    <guid>https://rhaizelkone.github.io/bronston-blogs/bronston/bronston-but-make-it-summer.html</guid>
+    <pubDate>Tue, 21 Jul 2026 12:00:00 +0000</pubDate>
+    <description>The off-season edition: group chats that never sleep, an August camp for students touching down from overseas, and the great September question.</description>
+  </item>
+
+  <item>
+    <title>Welcome to the New Bronston Buzz</title>
+    <link>https://rhaizelkone.github.io/bronston-blogs/bronston/welcome-to-bronston-buzz.html</link>
+    <guid>https://rhaizelkone.github.io/bronston-blogs/bronston/welcome-to-bronston-buzz.html</guid>
+    <pubDate>Mon, 20 Jul 2026 12:00:00 +0000</pubDate>
+    <description>The ribbon-cutting: what's new, meet the Reading Room, and two polls where you decide what gets covered first.</description>
+  </item>
+
+</channel>
+</rss>
