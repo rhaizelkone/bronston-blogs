@@ -6,7 +6,7 @@ How to publish a new post using GitHub + Netlify. Total time: ~2 minutes.
 
 1. Create a repo on github.com (e.g. `bronston-blogs`)
 2. Upload the CONTENTS of this site folder (index.html + the
-   bronston / reading-corner / css / js folders)
+   bronston / reading-room / css / js folders)
 3. In Netlify: Add new site → Import an existing project → GitHub →
    pick the repo → leave build settings empty → Deploy
 4. Netlify now auto-publishes every time the repo changes
@@ -16,7 +16,7 @@ How to publish a new post using GitHub + Netlify. Total time: ~2 minutes.
 ### Step 1 — Create the post file
 - In the repo, open the folder for the right wing:
   - Bronston post → `bronston/`
-  - Book review → `reading-corner/`
+  - Book review → `reading-room/`
 - Open the template (`post-template.html` or `review-template.html`),
   click the copy icon to copy its code
 - Click **Add file → Create new file**, name it in lowercase with
