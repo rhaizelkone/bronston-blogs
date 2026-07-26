@@ -8,7 +8,7 @@ different colors. The tabs at the very top of every page switch wings.
 ```
 index.html                        Landing page — pick a corner
 │
-├── reading-corner/               📚 earthen pastels · raecantwrite
+├── reading-room/               📚 earthen pastels · raecantwrite
 │   ├── index.html                  Home (hero + latest posts)
 │   ├── reviews.html                Review archive
 │   ├── review-template.html        Review template (spine ratings etc.)
@@ -38,7 +38,7 @@ Vercel / Cloudflare Pages / GitHub Pages). Done.
 
 **Reading corner:** duplicate `review-template.html` (reviews) or
 `is-reading-a-dying-art.html` (discussion posts), edit, then add a card
-on `reading-corner/index.html` and `reviews.html`.
+on `reading-room/index.html` and `reviews.html`.
 
 **Bronston:** duplicate `bronston/post-template.html`, edit the
 [bracketed] placeholders, then add a card on `bronston/index.html`
